@@ -1,0 +1,16 @@
+BDEPEND=dev-lang/perl test? ( virtual/perl-Test-Simple )
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-lang/perl
+DESCRIPTION=pure perl API to create and parse XML
+EAPI=8
+HOMEPAGE=https://metacpan.org/release/XML-Mini
+INHERIT=perl-module
+IUSE=test
+KEYWORDS=amd64 sparc x86
+LICENSE=GPL-3
+RDEPEND=dev-lang/perl:=
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PD/PDEEGAN/XML-Mini-1.38.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	c3fca037246e877693badea0df3b0ef8	perl-module	4f80b00fab088c2f6d68edb55a6c4bf4	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55
+_md5_=11472131d2703dfbb4b649501c965138

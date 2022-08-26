@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure install
+DESCRIPTION=Litstream is a lightweight and robust shoutcast-compatible streaming mp3 server
+EAPI=7
+HOMEPAGE=http://www.litestream.org/
+INHERIT=toolchain-funcs
+KEYWORDS=~amd64 ~ppc sparc x86
+LICENSE=BSD
+SLOT=0
+SRC_URI=http://litestream.org/litestream/litestream-1.3RC3.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=f975a1ace9ea6277affb43041d126573

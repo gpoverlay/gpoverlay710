@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Make BDF fonts bold and/or italic
+EAPI=8
+HOMEPAGE=https://hp.vector.co.jp/authors/VA013651/freeSoftware/mkbold-mkitalic.html
+INHERIT=toolchain-funcs
+KEYWORDS=~alpha amd64 arm ~ia64 ~loong ppc ~riscv ~s390 sparc x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://hp.vector.co.jp/authors/VA013651/lib/mkbold-mkitalic-0.11.tar.bz2
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=c6935eeab3e16a5e19dd5b7ec17124a7

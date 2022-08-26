@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-libs/elfutils[utils] dev-util/dejagnu sys-devel/gdb )
+DEFINED_PHASES=prepare
+DEPEND=dev-libs/elfutils
+DESCRIPTION=DWARF optimization and duplicate removal tool
+EAPI=8
+HOMEPAGE=https://sourceware.org/dwz
+INHERIT=toolchain-funcs
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=GPL-2+ GPL-3+
+RDEPEND=dev-libs/elfutils
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://sourceware.org/ftp/dwz/releases/dwz-0.14.tar.xz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=f741932cde31fad0563212299e98841a

@@ -1,0 +1,15 @@
+BDEPEND=dev-qt/linguist-tools doc? ( app-doc/doxygen media-gfx/graphviz )
+DEFINED_PHASES=compile configure install
+DEPEND=dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtcore:5
+DESCRIPTION=Very fast real-time fractal zoomer
+EAPI=8
+HOMEPAGE=https://xaos-project.github.io/
+INHERIT=docs qmake-utils
+IUSE=doc
+KEYWORDS=~amd64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtcore:5
+SLOT=0
+SRC_URI=https://github.com/xaos-project/XaoS/archive/de9e4f16849c5388760ba3a2e3b0955c5a39b71a.tar.gz -> xaos-4.2.1_p20210828.tar.gz
+_eclasses_=docs	8ed2a8a28ff109e7a3582c9abb7fe327	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=b71d5adb3dae8069aad406e6b5ffbab4

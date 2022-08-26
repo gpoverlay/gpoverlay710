@@ -1,0 +1,15 @@
+DEFINED_PHASES=install setup
+DEPEND=lua_single_target_lua5-1? ( dev-lang/lua:5.1[deprecated] ) dev-games/physfs media-libs/devil[mng,png,tiff] media-libs/freetype:2 media-libs/libmodplug media-libs/libsdl[joystick,opengl,video] media-libs/libvorbis media-libs/openal media-sound/mpg123 virtual/opengl media-libs/libmng:0 media-libs/tiff:0
+DESCRIPTION=A framework for 2D games in Lua
+EAPI=7
+HOMEPAGE=https://love2d.org/
+INHERIT=lua-single
+IUSE=+lua_single_target_lua5-1
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=ZLIB
+RDEPEND=lua_single_target_lua5-1? ( dev-lang/lua:5.1[deprecated] ) dev-games/physfs media-libs/devil[mng,png,tiff] media-libs/freetype:2 media-libs/libmodplug media-libs/libsdl[joystick,opengl,video] media-libs/libvorbis media-libs/openal media-sound/mpg123 virtual/opengl
+REQUIRED_USE=^^ ( lua_single_target_lua5-1 )
+SLOT=0.8
+SRC_URI=https://github.com/love2d/love/releases/download/0.8.0/love-0.8.0-linux-src.tar.gz
+_eclasses_=lua-single	f2c2fb82c912dd65d53bdae3613a331f	lua-utils	e69ff116248d78546ae1a234c086fe80	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=1aaf212d856523453a02655bf518a30e

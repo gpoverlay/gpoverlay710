@@ -1,0 +1,16 @@
+BDEPEND=dev-python/sphinx >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-libs/expat virtual/libiconv sys-apps/util-linux sqlite? ( dev-db/sqlite:3 ) postgres? ( dev-db/postgresql:* ) idn? ( net-dns/libidn:= ) udns? ( net-libs/udns ) ssl? ( dev-libs/botan:2= ) !ssl? ( dev-libs/libgcrypt ) systemd? ( sys-apps/systemd:= ) test? ( dev-cpp/catch:0 )
+DESCRIPTION=XMPP gateway to IRC
+EAPI=8
+HOMEPAGE=https://biboumi.louiz.org/
+INHERIT=cmake
+IUSE=+idn postgres +sqlite +ssl systemd test udns
+KEYWORDS=~amd64
+LICENSE=ZLIB
+RDEPEND=dev-libs/expat virtual/libiconv sys-apps/util-linux sqlite? ( dev-db/sqlite:3 ) postgres? ( dev-db/postgresql:* ) idn? ( net-dns/libidn:= ) udns? ( net-libs/udns ) ssl? ( dev-libs/botan:2= ) !ssl? ( dev-libs/libgcrypt ) systemd? ( sys-apps/systemd:= ) acct-user/biboumi
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://git.louiz.org/biboumi/snapshot/biboumi-9.0.tar.xz
+_eclasses_=cmake	44afbf15c35884f7c840470f1cf05d0d	flag-o-matic	29a755b1291d64133634d80b0328f153	multilib	5ca4e49abed8e3a2f7b56920eadee157	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	1542e649be915f43f6908a9e93909961	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
+_md5_=6369fd51761fae93cf609eac72e47929

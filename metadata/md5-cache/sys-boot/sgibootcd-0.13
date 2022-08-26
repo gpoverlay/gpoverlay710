@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Creates burnable CD images for SGI LiveCDs
+EAPI=8
+HOMEPAGE=ftp://ftp.linux-mips.org/pub/linux/mips/people/skylark/
+INHERIT=toolchain-funcs
+KEYWORDS=-* ~mips
+LICENSE=all-rights-reserved
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~kumba/distfiles/sgibootcd-0.13.tar.xz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=8e6980570d61e93c4c3325de218bc136

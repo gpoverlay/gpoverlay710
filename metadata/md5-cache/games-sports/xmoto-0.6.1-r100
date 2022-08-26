@@ -1,0 +1,16 @@
+BDEPEND=app-arch/xz-utils nls? ( sys-devel/gettext ) >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=app-arch/bzip2 dev-db/sqlite:3 dev-games/ode[double-precision=] lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-3? ( dev-lang/lua:5.3 ) dev-libs/libxdg-basedir dev-libs/libxml2 media-fonts/dejavu media-libs/libpng:0= media-libs/libsdl[joystick,opengl] media-libs/sdl-mixer[vorbis] media-libs/sdl-net media-libs/sdl-ttf net-misc/curl sys-libs/zlib:= virtual/jpeg:0 virtual/glu virtual/opengl nls? ( virtual/libintl )
+DESCRIPTION=A challenging 2D motocross platform game, where physics play an important role
+EAPI=7
+HOMEPAGE=https://xmoto.tuxfamily.org
+INHERIT=cmake lua-single
+IUSE=double-precision +nls lua_single_target_lua5-1 lua_single_target_lua5-3
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=app-arch/bzip2 dev-db/sqlite:3 dev-games/ode[double-precision=] lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-3? ( dev-lang/lua:5.3 ) dev-libs/libxdg-basedir dev-libs/libxml2 media-fonts/dejavu media-libs/libpng:0= media-libs/libsdl[joystick,opengl] media-libs/sdl-mixer[vorbis] media-libs/sdl-net media-libs/sdl-ttf net-misc/curl sys-libs/zlib:= virtual/jpeg:0 virtual/glu virtual/opengl nls? ( virtual/libintl )
+REQUIRED_USE=^^ ( lua_single_target_lua5-1 lua_single_target_lua5-3 )
+SLOT=0
+SRC_URI=https://github.com/xmoto/xmoto/archive/0.6.1.tar.gz -> xmoto-0.6.1.tar.gz
+_eclasses_=cmake	44afbf15c35884f7c840470f1cf05d0d	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	8f942ebdcf04334697649d4a0bf65a32	flag-o-matic	29a755b1291d64133634d80b0328f153	lua-single	f2c2fb82c912dd65d53bdae3613a331f	lua-utils	e69ff116248d78546ae1a234c086fe80	multilib	5ca4e49abed8e3a2f7b56920eadee157	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	toolchain-funcs	1542e649be915f43f6908a9e93909961	wrapper	4a1902f969e5718126434fc35f3a0d9c	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
+_md5_=c84301632f1444507c18ec39b09bca94

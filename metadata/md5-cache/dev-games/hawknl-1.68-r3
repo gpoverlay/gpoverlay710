@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install
+DESCRIPTION=A cross-platform network library designed for games
+EAPI=7
+HOMEPAGE=http://www.hawksoft.com/hawknl/
+INHERIT=toolchain-funcs
+IUSE=examples
+KEYWORDS=amd64 ~hppa x86
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=http://www.sonic.net/~philf/download/HawkNL168src.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=741c16dd6bcfca9f2439e1df0762bde6

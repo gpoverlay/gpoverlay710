@@ -1,0 +1,15 @@
+BDEPEND=sys-devel/bison sys-devel/flex virtual/pkgconfig
+DEFINED_PHASES=compile install prepare
+DEPEND=media-libs/libsdl[joystick,sound,video] media-libs/sdl-image[jpeg,png] media-libs/sdl-mixer[mod] opengl? ( media-libs/libglvnd )
+DESCRIPTION=Clone of the famous PuyoPuyo game
+EAPI=8
+HOMEPAGE=https://wiki.gentoo.org/wiki/No_homepage
+INHERIT=desktop toolchain-funcs
+IUSE=opengl
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl[joystick,sound,video] media-libs/sdl-image[jpeg,png] media-libs/sdl-mixer[mod] opengl? ( media-libs/libglvnd )
+SLOT=0
+SRC_URI=mirror://gentoo/flobopuyo-0.20.tgz mirror://gentoo/flobopuyo.png
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=3ba2c2c1f7c44e40f9df982ffdbebb8d

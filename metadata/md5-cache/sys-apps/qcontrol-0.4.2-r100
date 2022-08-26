@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install preinst prepare setup
+DEPEND=lua_single_target_luajit? ( dev-lang/luajit:= ) lua_single_target_lua5-1? ( dev-lang/lua:5.1 )
+DESCRIPTION=Send commands to some microcontrollers, e.g., to change LEDs or sound a buzzer
+EAPI=7
+HOMEPAGE=http://qnap.nas-central.org/index.php/PIC_Control_Software
+INHERIT=lua-single toolchain-funcs
+IUSE=lua_single_target_luajit lua_single_target_lua5-1
+KEYWORDS=arm
+LICENSE=GPL-3+
+RDEPEND=lua_single_target_luajit? ( dev-lang/luajit:= ) lua_single_target_lua5-1? ( dev-lang/lua:5.1 )
+REQUIRED_USE=^^ ( lua_single_target_luajit lua_single_target_lua5-1 )
+SLOT=0
+SRC_URI=mirror://debian/pool/main/q/qcontrol/qcontrol_0.4.2.orig.tar.gz mirror://debian/pool/main/q/qcontrol/qcontrol_0.4.2-6.diff.gz
+_eclasses_=lua-single	f2c2fb82c912dd65d53bdae3613a331f	lua-utils	e69ff116248d78546ae1a234c086fe80	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=1ce439e95323f7b5fc99c04df29f1410

@@ -1,0 +1,16 @@
+BDEPEND=>=virtual/perl-File-Temp-0.160.0 >=dev-perl/File-Which-0.160.0 dev-perl/libwww-perl >=dev-perl/Log-Log4perl-1.280.0 dev-perl/TermReadKey hammer? ( dev-perl/Expect ) virtual/perl-ExtUtils-MakeMaker dev-lang/perl test? ( virtual/perl-Test-Simple )
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-lang/perl
+DESCRIPTION=Typical installation tasks for system administrators
+EAPI=8
+HOMEPAGE=https://metacpan.org/release/Sysadm-Install
+INHERIT=perl-module
+IUSE=hammer test examples
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=>=virtual/perl-File-Temp-0.160.0 >=dev-perl/File-Which-0.160.0 dev-perl/libwww-perl >=dev-perl/Log-Log4perl-1.280.0 dev-perl/TermReadKey hammer? ( dev-perl/Expect ) dev-lang/perl:=
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MS/MSCHILLI/Sysadm-Install-0.48.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	c3fca037246e877693badea0df3b0ef8	perl-module	4f80b00fab088c2f6d68edb55a6c4bf4	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55
+_md5_=5937b94e044c73211aa8dd9f63bd4b1e

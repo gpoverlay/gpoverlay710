@@ -1,0 +1,16 @@
+BDEPEND=dev-perl/Module-Build dev-lang/perl test? ( virtual/perl-Test-Simple )
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=sci-biology/bioperl-1.6.9 !minimal? ( dev-perl/Algorithm-Diff dev-perl/XML-Twig dev-perl/IO-String dev-perl/IPC-Run dev-perl/File-Sort ) dev-lang/perl
+DESCRIPTION=Perl wrapper modules for key bioinformatics applications
+EAPI=8
+HOMEPAGE=http://www.bioperl.org/
+INHERIT=perl-module
+IUSE=minimal test test
+KEYWORDS=amd64 x86
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=>=sci-biology/bioperl-1.6.9 !minimal? ( dev-perl/Algorithm-Diff dev-perl/XML-Twig dev-perl/IO-String dev-perl/IPC-Run dev-perl/File-Sort ) dev-lang/perl:=
+RESTRICT=test !test? ( test )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CJ/CJFIELDS/BioPerl-Run-1.006900.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	c3fca037246e877693badea0df3b0ef8	perl-module	4f80b00fab088c2f6d68edb55a6c4bf4	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55
+_md5_=89a50a53d48e4dddb7f36a35c0407fdb

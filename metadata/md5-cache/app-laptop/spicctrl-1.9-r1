@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure install
+DESCRIPTION=tool for the sonypi-Device (found in Sony Vaio Notebooks)
+EAPI=7
+HOMEPAGE=https://www.popies.net/sonypi/
+INHERIT=toolchain-funcs
+KEYWORDS=~amd64 -ppc x86
+LICENSE=GPL-2+
+SLOT=0
+SRC_URI=https://www.popies.net/sonypi/spicctrl-1.9.tar.bz2
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=aaadb642f7a2df3febf7dbc25369d81f

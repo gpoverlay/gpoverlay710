@@ -1,0 +1,10 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=A standalone implementation of fortify source
+EAPI=7
+HOMEPAGE=http://git.2f30.org/fortify-headers/
+LICENSE=ISC
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=3c6d4a3c9e8e2cb5d8db2e24833dfbaa

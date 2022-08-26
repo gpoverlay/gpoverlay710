@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=TCP/IP-based ping implementation
+EAPI=7
+HOMEPAGE=https://directory.fsf.org/security/system/poink.html
+INHERIT=toolchain-funcs
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2+
+SLOT=0
+SRC_URI=https://ep09.pld-linux.org/~mmazur/poink/poink-2.03.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=e9cf9e7c9094b0c26b9a0fa3381df90a

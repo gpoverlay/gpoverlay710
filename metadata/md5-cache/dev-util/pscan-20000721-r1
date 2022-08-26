@@ -1,0 +1,13 @@
+BDEPEND=sys-devel/flex
+DEFINED_PHASES=configure install
+DESCRIPTION=A limited problem scanner for C source files
+EAPI=7
+HOMEPAGE=http://www.striker.ottawa.on.ca/~aland/pscan/
+INHERIT=toolchain-funcs
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=GPL-2
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://gentoo/pscan-20000721.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=b5bede2168cced5a9649d93a46793312

@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig virtual/pkgconfig
+DEFINED_PHASES=configure install postinst postrm
+DEPEND=sdl? ( media-libs/libsdl2[video] )
+DESCRIPTION=Joystick testing utilities
+EAPI=8
+HOMEPAGE=https://sourceforge.net/projects/linuxconsole/
+INHERIT=toolchain-funcs udev
+IUSE=sdl
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=GPL-2+
+RDEPEND=sdl? ( media-libs/libsdl2[video] )
+SLOT=0
+SRC_URI=mirror://sourceforge/linuxconsole/files/linuxconsoletools-1.8.1.tar.bz2
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	udev	f3a0a3964e2028a140c181f00eea9712
+_md5_=e15099008d533e47767429460d5d7597

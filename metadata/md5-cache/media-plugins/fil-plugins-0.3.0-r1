@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install
+DEPEND=media-libs/ladspa-sdk
+DESCRIPTION=FIL-plugins ladspa plugin package. Filters by Fons Adriaensen
+EAPI=8
+HOMEPAGE=http://kokkinizita.linuxaudio.org/linuxaudio/
+INHERIT=toolchain-funcs
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/ladspa-sdk
+SLOT=0
+SRC_URI=http://kokkinizita.linuxaudio.org/linuxaudio/downloads/FIL-plugins-0.3.0.tar.bz2
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=ab472810d0369e960bc3651782848cf5

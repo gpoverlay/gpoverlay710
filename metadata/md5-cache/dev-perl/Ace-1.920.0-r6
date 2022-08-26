@@ -1,0 +1,16 @@
+BDEPEND=virtual/perl-Digest-MD5 dev-perl/Cache-Cache dev-perl/GD elibc_glibc? ( net-libs/libtirpc net-libs/rpcsvc-proto ) elibc_musl? ( net-libs/libtirpc net-libs/rpcsvc-proto ) dev-lang/perl
+DEFINED_PHASES=compile configure install postinst prepare test
+DEPEND=elibc_glibc? ( net-libs/libtirpc net-libs/rpcsvc-proto ) elibc_musl? ( net-libs/libtirpc net-libs/rpcsvc-proto ) dev-lang/perl
+DESCRIPTION=Object-Oriented Access to ACEDB Databases
+EAPI=7
+HOMEPAGE=https://metacpan.org/release/AcePerl
+INHERIT=perl-module toolchain-funcs
+IUSE=test examples
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=virtual/perl-Digest-MD5 dev-perl/Cache-Cache dev-perl/GD dev-lang/perl:=
+RESTRICT=!test? ( test ) mirror
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LD/LDS/AcePerl-1.92.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	c3fca037246e877693badea0df3b0ef8	perl-module	4f80b00fab088c2f6d68edb55a6c4bf4	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=78703dd3658ccc0bd8c9b01ad3b74811

@@ -1,0 +1,14 @@
+BDEPEND=app-doc/xmltoman
+DEFINED_PHASES=install prepare
+DEPEND=dev-libs/gmp:0=
+DESCRIPTION=Shamir's Secret Sharing Scheme
+EAPI=8
+HOMEPAGE=https://github.com/MrJoy/ssss
+INHERIT=toolchain-funcs
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/gmp:0=
+SLOT=0
+SRC_URI=https://github.com/MrJoy/ssss/archive/releases/v0.5.7.tar.gz -> ssss-0.5.7.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=b121cd4ff282d2448b3b250408d32b24

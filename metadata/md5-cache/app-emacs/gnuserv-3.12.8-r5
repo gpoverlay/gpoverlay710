@@ -1,0 +1,15 @@
+BDEPEND=>=app-editors/emacs-23.1:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=>=app-eselect/eselect-emacs-1.15 X? ( x11-libs/libXau ) X? ( x11-base/xorg-proto )
+DESCRIPTION=Attach to an already running Emacs
+EAPI=7
+HOMEPAGE=https://web.archive.org/web/20160508134736/http://martin.meltin.net/hacks/emacs/ https://www.emacswiki.org/emacs/GnuClient
+INHERIT=elisp desktop xdg-utils
+IUSE=X
+KEYWORDS=amd64 ~ppc x86 ~x86-linux ~ppc-macos
+LICENSE=GPL-2+
+RDEPEND=>=app-eselect/eselect-emacs-1.15 X? ( x11-libs/libXau ) >=app-editors/emacs-23.1:*
+SLOT=0
+SRC_URI=https://web.archive.org/web/20150908031821/http://martin.meltin.net/sites/martin.meltin.net/files/hacks/gnuserv-3.12.8.tar.gz
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	elisp	c1c17e9c24d72d3bd58c611de8116fb6	elisp-common	79f8e13c80c89792e5c9b3fc8ef59f3b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
+_md5_=557793878b3ae88060488483737e695b

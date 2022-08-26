@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=>=dev-lang/tcl-8.6:0 sci-electronics/geda dev-db/datadraw
+DESCRIPTION=A GNU Netlist Manipulation Library
+EAPI=7
+HOMEPAGE=https://sourceforge.net/projects/gnetman/
+INHERIT=toolchain-funcs
+IUSE=doc examples
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/tcl-8.6:0 sci-electronics/geda
+SLOT=0
+SRC_URI=mirror://gentoo/gnetman-0.0.1_pre20110124.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=3bc4943b41ceefd4b153bbe198785bf3

@@ -1,0 +1,16 @@
+BDEPEND=virtual/pkgconfig doc? ( app-text/asciidoc ) test? ( || ( ( >=dev-lang/python-3.10.4:3.10 dev-python/xcffib[python_targets_python3_10(-)] ) ( >=dev-lang/python-3.9.12:3.9 dev-python/xcffib[python_targets_python3_9(-)] ) ( >=dev-lang/python-3.8.13:3.8 dev-python/xcffib[python_targets_python3_8(-)] ) ) ) >=dev-vcs/git-1.8.2.1[curl] >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
+DEFINED_PHASES=compile configure install postinst postrm preinst setup test unpack
+DEPEND=dev-libs/libev dev-libs/uthash x11-libs/libX11 x11-libs/libxcb x11-libs/libXext x11-libs/pixman x11-libs/xcb-util-image x11-libs/xcb-util-renderutil config-file? ( dev-libs/libconfig:= ) dbus? ( sys-apps/dbus ) drm? ( x11-libs/libdrm ) opengl? ( virtual/opengl ) pcre? ( dev-libs/libpcre ) !x11-misc/compton x11-base/xorg-proto
+DESCRIPTION=A lightweight compositor for X11 (previously a compton fork)
+EAPI=8
+HOMEPAGE=https://github.com/yshui/picom
+INHERIT=git-r3 meson python-any-r1 virtualx xdg
+IUSE=+config-file dbus +doc +drm opengl pcre test test
+LICENSE=MPL-2.0 MIT
+PROPERTIES=live
+RDEPEND=dev-libs/libev dev-libs/uthash x11-libs/libX11 x11-libs/libxcb x11-libs/libXext x11-libs/pixman x11-libs/xcb-util-image x11-libs/xcb-util-renderutil config-file? ( dev-libs/libconfig:= ) dbus? ( sys-apps/dbus ) drm? ( x11-libs/libdrm ) opengl? ( virtual/opengl ) pcre? ( dev-libs/libpcre ) !x11-misc/compton
+REQUIRED_USE=test? ( dbus )
+RESTRICT=test !test? ( test )
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	meson	1994a5aef5d4f5798b92f64d6f9a6003	multilib	5ca4e49abed8e3a2f7b56920eadee157	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	python-any-r1	f2f00fb79b5e888b5011d4c51240ae97	python-utils-r1	dd5e1098e305ad508d21f496e9e37046	toolchain-funcs	1542e649be915f43f6908a9e93909961	virtualx	644887c82aefdf12001489391fca4f02	xdg	6024fbc93167fad782e2032933654857	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
+_md5_=b40f66c82c7d44a7dc707a52d0001625

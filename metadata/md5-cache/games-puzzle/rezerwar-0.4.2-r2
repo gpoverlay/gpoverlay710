@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=media-libs/libsdl[sound,joystick,video] media-libs/sdl-mixer[vorbis]
+DESCRIPTION=Puzzle game like the known tetromino and the average pipe games
+EAPI=7
+HOMEPAGE=https://tamentis.com/projects/rezerwar/
+INHERIT=desktop toolchain-funcs
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=media-libs/libsdl[sound,joystick,video] media-libs/sdl-mixer[vorbis]
+SLOT=0
+SRC_URI=https://tamentis.com/projects/rezerwar/files/rezerwar-0.4.2.tar.gz
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=67bde81bddf5ec1f76b4892e607efb25

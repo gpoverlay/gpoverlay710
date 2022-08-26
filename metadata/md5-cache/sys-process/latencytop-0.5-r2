@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=prepare pretend setup
+DEPEND=dev-libs/glib:2 sys-libs/ncurses:0= gtk? ( x11-libs/gtk+:2 )
+DESCRIPTION=tool for identifying where in the system latency is happening
+EAPI=7
+HOMEPAGE=http://git.infradead.org/latencytop.git
+INHERIT=linux-info
+IUSE=gtk
+KEYWORDS=amd64 ~arm x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/glib:2 sys-libs/ncurses:0= gtk? ( x11-libs/gtk+:2 )
+SLOT=0
+SRC_URI=mirror://gentoo/latencytop-0.5.tar.gz
+_eclasses_=linux-info	56708ddc53d8b607ed88fd97a56e59dc	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=e190308d682d417ebe395361c99d25fc

@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=A very fast and simple package for creating and reading constant data bases
+EAPI=7
+HOMEPAGE=http://www.corpit.ru/mjt/tinycdb.html
+INHERIT=toolchain-funcs
+IUSE=static-libs
+KEYWORDS=amd64 ~arm64 ~hppa ~ia64 ~mips ppc ~riscv x86
+LICENSE=public-domain
+RDEPEND=!dev-db/cdb
+RESTRICT=test
+SLOT=0
+SRC_URI=http://www.corpit.ru/mjt/tinycdb/tinycdb-0.78.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=a158a4f6fab541ac66cd2f3aa5cc7e1b

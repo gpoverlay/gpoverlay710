@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst postrm prepare setup
+DESCRIPTION=udev rules for various game hardware devices
+EAPI=8
+HOMEPAGE=https://wiki.gentoo.org/wiki/Project:Games
+INHERIT=udev
+IUSE=+acl elogind systemd
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=MIT
+RDEPEND=acl? ( elogind? ( sys-auth/elogind[acl] ) systemd? ( sys-apps/systemd[acl] ) ) !acl? ( acct-group/input ) virtual/udev
+REQUIRED_USE=acl? ( || ( elogind systemd ) )
+SLOT=0
+SRC_URI=https://github.com/ValveSoftware/steam-devices/archive/d87ef558408c5e7a1a793d738db4c9dc2cb5f8fa.tar.gz -> steam-devices-d87ef558408c5e7a1a793d738db4c9dc2cb5f8fa.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	udev	f3a0a3964e2028a140c181f00eea9712
+_md5_=9fb94704f36a095d3af89948ddc60e30

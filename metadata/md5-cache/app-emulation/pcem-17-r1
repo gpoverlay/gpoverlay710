@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure install postinst prepare
+DEPEND=alsa? ( media-libs/alsa-lib ) media-libs/libsdl2 media-libs/openal x11-libs/wxGTK:3.0-gtk3[tiff,X]
+DESCRIPTION=A PC emulator that specializes in running old operating systems and software
+EAPI=8
+HOMEPAGE=https://pcem-emulator.co.uk/ https://github.com/sarah-walker-pcem/pcem/
+INHERIT=autotools desktop flag-o-matic wxwidgets
+IUSE=alsa networking
+KEYWORDS=amd64
+LICENSE=GPL-2+
+RDEPEND=alsa? ( media-libs/alsa-lib ) media-libs/libsdl2 media-libs/openal x11-libs/wxGTK:3.0-gtk3[tiff,X]
+SLOT=0
+SRC_URI=https://pcem-emulator.co.uk/files/PCemV17Linux.tar.gz
+_eclasses_=autotools	9e6965bfaa00f52cc61e0d4bc44c87b3	desktop	22952d8f27cac191d75529d4c38e6bfa	flag-o-matic	29a755b1291d64133634d80b0328f153	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	241a8f577b9781a42a7421e53448a44e	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	wxwidgets	c09e9b94378cadaf6ef86ec1534c0fd6
+_md5_=4da6327ca5f26a3a8ba32ddf2e175b0f

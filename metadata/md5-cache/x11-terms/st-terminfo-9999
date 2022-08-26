@@ -1,0 +1,11 @@
+BDEPEND=>=sys-libs/ncurses-6.0 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst prepare unpack
+DESCRIPTION=Terminfo for x11-terms/st
+EAPI=8
+HOMEPAGE=https://st.suckless.org/
+LICENSE=MIT-with-advertising
+PROPERTIES=live
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=ccf7902f8e1be1f9381cecb539226dd1

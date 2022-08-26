@@ -1,0 +1,16 @@
+BDEPEND=>=dev-perl/glib-perl-1.12.0 >=dev-perl/Gtk2-1.12.0 gnome-base/libglade:2.0 x11-libs/gtk+:2 dev-perl/ExtUtils-Depends dev-perl/ExtUtils-PkgConfig virtual/pkgconfig dev-lang/perl test? ( virtual/perl-Test-Simple ) test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=gnome-base/libglade:2.0 x11-libs/gtk+:2 dev-lang/perl
+DESCRIPTION=Perl wrappers for the egg cup Gtk2::TrayIcon utilities
+EAPI=8
+HOMEPAGE=http://gtk2-perl.sf.net/ https://metacpan.org/release/Gtk2-TrayIcon
+INHERIT=perl-module virtualx
+IUSE=test examples test
+KEYWORDS=amd64 ~ia64 ~ppc ~sparc x86
+LICENSE=LGPL-2
+RDEPEND=>=dev-perl/glib-perl-1.12.0 >=dev-perl/Gtk2-1.12.0 gnome-base/libglade:2.0 x11-libs/gtk+:2 dev-lang/perl:=
+RESTRICT=!test? ( test ) !test? ( test )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/X/XA/XAOC/Gtk2-TrayIcon-0.07.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	c3fca037246e877693badea0df3b0ef8	perl-module	4f80b00fab088c2f6d68edb55a6c4bf4	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	virtualx	644887c82aefdf12001489391fca4f02
+_md5_=bdbba729ee5aee00675edfc529e21e9b

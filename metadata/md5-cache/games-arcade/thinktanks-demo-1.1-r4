@@ -1,0 +1,13 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Tank combat game with lighthearted, fast paced pandemonium
+EAPI=7
+HOMEPAGE=http://www.garagegames.com/pg/product/view.php?id=12
+INHERIT=desktop unpacker
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=THINKTANKS
+RDEPEND=media-libs/libsdl[video,joystick,abi_x86_32(-)] media-libs/libogg[abi_x86_32(-)] media-libs/libvorbis[abi_x86_32(-)] x11-libs/libX11[abi_x86_32(-)] x11-libs/libXext[abi_x86_32(-)]
+RESTRICT=bindist mirror strip
+SLOT=0
+SRC_URI=http://demos.garagegames.com/thinktanks/ThinkTanksDemo_v1.1.sh.bin
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	unpacker	697382d119fd3d195f110b7979184285
+_md5_=dabf18cb9232dc31eed01e8371c92331

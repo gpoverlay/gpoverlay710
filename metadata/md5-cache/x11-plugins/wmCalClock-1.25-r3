@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile
+DEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXpm x11-base/xorg-proto
+DESCRIPTION=WMaker DockApp: A Calendar clock with antialiased text
+EAPI=7
+HOMEPAGE=https://www.dockapps.net/wmcalclock
+INHERIT=toolchain-funcs
+KEYWORDS=~alpha amd64 ~mips ppc ppc64 ~sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXpm
+SLOT=0
+SRC_URI=https://www.dockapps.net/download/wmCalClock-1.25.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=ea33936b5cabf091f53580a0183203f1

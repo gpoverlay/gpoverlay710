@@ -1,0 +1,14 @@
+BDEPEND=dev-qt/linguist-tools:5
+DEFINED_PHASES=configure install postinst postrm prepare
+DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5
+DESCRIPTION=A word unscrambling game
+EAPI=7
+HOMEPAGE=https://gottcode.org/connectagram/
+INHERIT=qmake-utils xdg-utils
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5
+SLOT=0
+SRC_URI=https://gottcode.org/connectagram/connectagram-1.2.11-src.tar.bz2
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707	toolchain-funcs	1542e649be915f43f6908a9e93909961	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
+_md5_=abc7b7f3d4298f6b052beaa0fe34f675

@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install
+DESCRIPTION=cross-platform file change monitor with multiple backends
+EAPI=7
+HOMEPAGE=https://github.com/emcrisostomo/fswatch
+INHERIT=toolchain-funcs
+IUSE=nls static-libs
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=https://github.com/emcrisostomo/fswatch/releases/download/1.16.0/fswatch-1.16.0.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=87a00185db612d90add107019f35f0ab

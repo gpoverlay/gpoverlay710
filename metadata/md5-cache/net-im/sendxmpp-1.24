@@ -1,0 +1,16 @@
+BDEPEND=dev-lang/perl test? ( virtual/perl-Test-Simple )
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-lang/perl
+DESCRIPTION=A perl-script to send xmpp (jabber), similar to what mail(1) does for mail
+EAPI=8
+HOMEPAGE=http://sendxmpp.hostname.sk/
+INHERIT=perl-module
+IUSE=test
+KEYWORDS=amd64 ~hppa ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-perl/Net-XMPP dev-perl/Authen-SASL virtual/perl-Getopt-Long dev-lang/perl:=
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/lhost/sendxmpp/archive/v1.24.tar.gz -> sendxmpp-1.24.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	c3fca037246e877693badea0df3b0ef8	perl-module	4f80b00fab088c2f6d68edb55a6c4bf4	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55
+_md5_=e9190b990b544850ffe1375d9cc7d743

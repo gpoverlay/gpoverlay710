@@ -1,0 +1,17 @@
+BDEPEND=dev-qt/qttest:5 virtual/pkgconfig >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install postinst postrm preinst test
+DEPEND=app-arch/bzip2 dev-libs/capnproto:= dev-libs/serd dev-libs/sord dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5[ssl] dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5 media-libs/alsa-lib media-libs/dssi media-libs/ladspa-sdk media-libs/liblrdf media-libs/libsamplerate media-libs/libsndfile media-libs/rubberband media-libs/speex media-libs/vamp-plugin-sdk sci-libs/fftw:3.0= id3tag? ( media-libs/libid3tag:= ) jack? ( virtual/jack ) mad? ( media-libs/libmad ) ogg? ( media-libs/libfishsound media-libs/liboggz ) opus? ( media-libs/opusfile ) osc? ( media-libs/liblo ) portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio )
+DESCRIPTION=Music audio files viewer and analiser
+EAPI=8
+HOMEPAGE=https://www.sonicvisualiser.org/ https://github.com/sonic-visualiser/sonic-visualiser
+INHERIT=meson xdg
+IUSE=id3tag jack mad ogg opus osc +portaudio pulseaudio test
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=app-arch/bzip2 dev-libs/capnproto:= dev-libs/serd dev-libs/sord dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5[ssl] dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5 media-libs/alsa-lib media-libs/dssi media-libs/ladspa-sdk media-libs/liblrdf media-libs/libsamplerate media-libs/libsndfile media-libs/rubberband media-libs/speex media-libs/vamp-plugin-sdk sci-libs/fftw:3.0= id3tag? ( media-libs/libid3tag:= ) jack? ( virtual/jack ) mad? ( media-libs/libmad ) ogg? ( media-libs/libfishsound media-libs/liboggz ) opus? ( media-libs/opusfile ) osc? ( media-libs/liblo ) portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio )
+REQUIRED_USE=|| ( jack pulseaudio portaudio ) test? ( id3tag mad )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://code.soundsoftware.ac.uk/attachments/download/2820/sonic-visualiser-4.5.tar.gz
+_eclasses_=meson	1994a5aef5d4f5798b92f64d6f9a6003	multilib	5ca4e49abed8e3a2f7b56920eadee157	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	python-utils-r1	dd5e1098e305ad508d21f496e9e37046	toolchain-funcs	1542e649be915f43f6908a9e93909961	xdg	6024fbc93167fad782e2032933654857	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
+_md5_=83df12e47c88ae455252ca895505c8df

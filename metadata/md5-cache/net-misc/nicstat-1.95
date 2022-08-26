@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Network traffic statics utility for Solaris and Linux
+EAPI=6
+HOMEPAGE=https://sourceforge.net/projects/nicstat/ https://github.com/scotte/nicstat/
+INHERIT=toolchain-funcs
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+SLOT=0
+SRC_URI=https://github.com/scotte/nicstat/archive/a716ee81cbf1e177267e20a880b5a0d9fa5b689e.tar.gz -> nicstat-1.95.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=1a33ea1055458a085ddbc717b18ed781

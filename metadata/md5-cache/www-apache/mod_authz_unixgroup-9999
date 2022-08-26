@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND==www-servers/apache-2.4* >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=An Apache2 authorization DSO using unix groups
+EAPI=6
+HOMEPAGE=https://github.com/phokz/mod-auth-external
+LICENSE=Apache-1.1
+PROPERTIES=live
+RDEPEND==www-servers/apache-2.4*
+SLOT=0
+_eclasses_=apache-module	4d0ccd357b5f2d92599030b72f6efb62	depend.apache	416d1c5005c5f4594e79812fb7323f0d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=bde13880107a0121cb91006bcdb2b01c

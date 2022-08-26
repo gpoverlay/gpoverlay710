@@ -1,0 +1,16 @@
+BDEPEND=test? ( sci-visualization/grace ) test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
+DEFINED_PHASES=install postinst prepare test
+DEPEND=media-libs/t1lib
+DESCRIPTION=DVI to Grace translator
+EAPI=7
+HOMEPAGE=https://plasma-gate.weizmann.ac.il/Grace/
+INHERIT=toolchain-funcs virtualx
+IUSE=examples test test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/t1lib
+RESTRICT=test
+SLOT=0
+SRC_URI=ftp://plasma-gate.weizmann.ac.il/pub/grace/src/devel/dvi2gr-0.4.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	virtualx	644887c82aefdf12001489391fca4f02
+_md5_=4c9e9089bda6eab121ba50da8239a95b

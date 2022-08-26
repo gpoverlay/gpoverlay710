@@ -1,0 +1,14 @@
+BDEPEND=sys-apps/checkpolicy sys-devel/m4 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst prepare pretend unpack
+DEPEND==sec-policy/selinux-base-9999[systemd?]
+DESCRIPTION=SELinux policy for core modules
+EAPI=7
+HOMEPAGE=https://wiki.gentoo.org/wiki/Project:SELinux
+IUSE=systemd +unconfined
+LICENSE=GPL-2
+PDEPEND=unconfined? ( sec-policy/selinux-unconfined )
+PROPERTIES=live
+RDEPEND==sec-policy/selinux-base-9999[systemd?]
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=4566a343a8acd3482bab4af3e420a8ca

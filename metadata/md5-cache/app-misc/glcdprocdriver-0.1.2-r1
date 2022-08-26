@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=app-misc/graphlcd-base
+DESCRIPTION=A glue between the graphlcd-base library from the GraphLCD project
+EAPI=8
+HOMEPAGE=https://lucianm.github.io/GLCDprocDriver https://github.com/lucianm/GLCDprocDriver
+INHERIT=toolchain-funcs
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=app-misc/graphlcd-base
+SLOT=0
+SRC_URI=https://github.com/lucianm/GLCDprocDriver/archive/0.1.2.tar.gz -> GLCDprocDriver-0.1.2.tar.gz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=7e7c412c491565e76a312836e5199e7e

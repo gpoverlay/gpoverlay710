@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare
+DEPEND=sys-fs/e2fsprogs
+DESCRIPTION=Zeroes out all free space on a filesystem
+EAPI=7
+HOMEPAGE=http://frippery.org/uml/index.html
+INHERIT=toolchain-funcs
+KEYWORDS=amd64 arm arm64 ~mips ~riscv x86
+LICENSE=GPL-2
+RDEPEND=sys-fs/e2fsprogs
+SLOT=0
+SRC_URI=http://frippery.org/uml/zerofree-1.1.1.tgz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=dbf0f65480108c9f86591084eaf47dbf

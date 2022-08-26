@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst prepare
+DEPEND=acct-group/android
+DESCRIPTION=Open Handset Alliance's Android SDK
+EAPI=7
+HOMEPAGE=https://developer.android.com
+INHERIT=desktop udev
+KEYWORDS=~amd64 ~x86
+LICENSE=android
+RDEPEND=acct-group/android dev-java/ant-core dev-java/swt:3.7[cairo] >=virtual/jdk-1.8 sys-libs/ncurses-compat:5[abi_x86_32(-)] sys-libs/zlib[abi_x86_32(-)]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://dl.google.com/android/android-sdk_r24.4.1-linux.tgz
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	udev	f3a0a3964e2028a140c181f00eea9712
+_md5_=6541c86311f5c5276a2bd56acb1fa073

@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=media-libs/libsdl[sound,video] media-libs/sdl-mixer[vorbis] x11-libs/libXi
+DESCRIPTION=Scrolling, platform-jumping, key-collecting, ancient pyramid exploring game
+EAPI=8
+HOMEPAGE=http://abe.sourceforge.net/
+INHERIT=desktop toolchain-funcs
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl[sound,video] media-libs/sdl-mixer[vorbis] x11-libs/libXi
+SLOT=0
+SRC_URI=mirror://sourceforge/abe/abe-1.1.tar.gz https://dev.gentoo.org/~ionen/distfiles/abe.png
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=f411b006299db70c429dd268ecce39f3

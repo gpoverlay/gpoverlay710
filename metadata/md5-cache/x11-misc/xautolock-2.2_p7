@@ -1,0 +1,14 @@
+BDEPEND=app-text/rman x11-base/xorg-proto >=x11-misc/imake-1.0.8-r1
+DEFINED_PHASES=compile configure install prepare
+DEPEND=x11-libs/libXScrnSaver
+DESCRIPTION=An automatic X screen-locker/screen-saver
+EAPI=7
+HOMEPAGE=http://www.ibiblio.org/pub/Linux/X11/screensavers/
+INHERIT=toolchain-funcs
+KEYWORDS=amd64 ~arm ~arm64 ppc ~ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXScrnSaver
+SLOT=0
+SRC_URI=http://www.ibiblio.org/pub/Linux/X11/screensavers/xautolock-2.2.tgz mirror://debian/pool/main/x/xautolock/xautolock_2.2-7.debian.tar.xz
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=7640316e1cc8e09be53cf35863312e12
